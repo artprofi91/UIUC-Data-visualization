@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+}
+svg {
+  text-align: center;
+  border: solid 1px black;
+}
+#svgMain {
+  margin: auto;
+  display: block;
+}
+#text {
+  text-align: center;
+  font-size: 18px;
+}
+
+path.mouse-line {
+  stroke-width: 1.5px;
+  stroke: black;
+}
+
+.title text {
+  font-size: 18px;
+}
+
+.line {
+  stroke-width: 1.5px;
+  fill: none;
+}
+
+.axis path,
+.axis line {
+  stroke: black;
+  fill: none;
+  stroke-width: 2px;
+}
