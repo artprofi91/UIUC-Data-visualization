@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+svg {
+  background-color: white;
+}
+.box {
+  box-shadow: 8px 8px 40px black;
+  text-align: center;
+  font-size: 32px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 4px;
+  left: 20%;
+  position: absolute;
+  top: 4%;
+}
+
+.link {
+  stroke: #ccc;
+}
+
+.node text {
+  pointer-events: none;
+}
